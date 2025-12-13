@@ -27,4 +27,4 @@ filename = f"switch_inventory_output_{timestamp}.json"
 with open(filename, "w") as f:
     json.dump(switch_inventory, f, indent=2)
 
-print(f"✅ Inventory exported to: {filename}")
+print(f"Inventory exported to: {filename}")
